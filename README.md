@@ -11,7 +11,7 @@
 4. Click "Load unpacked" and select this folder
 
 ### Configuration
-- Adjust settings in `config.js`
+- Adjust settings in `config.js` or `style2.css`
 
 ### Usage
 - Click the extension icon to activate
