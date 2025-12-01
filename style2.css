@@ -1,0 +1,74 @@
+:root {
+    --jpLeague: url("https://i.ibb.co/rKBCsbfJ/Geo-Guessr-Background.gif");
+    --ttmt: url("https://i.ibb.co/Mk61b3S6/Te-Ta-Mini-Tournament.png");
+    --ttot: url("https://i.ibb.co/B2PvDw9L/TTOT-BG.png");
+}
+
+.views_activeRoundWrapper__1_J5M,
+.background_backgroundGroupEvents__j9jb6,
+.background_backgroundHome__1fSZV,
+.background_backgroundParty__ZCPUZ,
+.in-game_backgroundDefault__kgVVj,
+.overlay_backdrop__ueiEF {
+    background: none !important;
+    --background: none !important;
+}
+
+body {
+    background: var(--jpLeague) !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+.in-game_root__8QarP {
+    background: linear-gradient(0deg, transparent 80%, black 100%) !important;
+}
+
+.preview-round_guessMapContainer__77Lpq,
+.spectate-map_buttonWrapper__seGNr,
+.views_bg__jJHHs,
+.player-view_box__QrNpA,
+.game-notch_ggLogo__2lDDC,
+.game-notch_shield__YiqT7 {
+    visibility: hidden;
+}
+
+.clock-timer_timerSvg__5Vip2 path {
+    stroke: #fff !important;
+}
+
+.clock-timer_timerSvg__5Vip2 path.isGuessed {
+    stroke: #000 !important;
+}
+
+
+
+.game-notch_roundInfo__VDshQ > div{
+    gap: 50rem;
+    scale: 1.9;
+}
+
+.views_round__Es2z5 {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 2px !important;
+    position: fixed !important;
+    top: 4.4rem;
+    transition: .5s;
+}
+
+.views_round__Es2z5 label {
+    font-size: 1rem !important;
+}
+
+.round-score_container__czmth {
+    width: 90% !important;
+}
+
+.round-score_container__czmth > div:not(.round-score-animations_scoreTable__BpRHh) {
+    height: 36rem !important;
+}
+
+.round-score-animations_scoreTable__BpRHh {
+    width: 80% !important;
+}

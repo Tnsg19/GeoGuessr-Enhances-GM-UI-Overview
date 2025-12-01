@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "GeoGuessr Duels GM-Enhancer",
+    "version": "1.0",
+    "description": "Enhances GeoGuessr Duels overview with additional features.",
+    "content_scripts": [{
+        "matches": ["https://www.geoguessr.com/*"],
+        "js": ["content.js"],
+        "css": ["style2.css"]
+    }]
+}
